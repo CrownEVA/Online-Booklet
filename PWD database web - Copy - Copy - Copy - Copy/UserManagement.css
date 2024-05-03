@@ -1,0 +1,146 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    background: url(Bg\ admin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.logo{
+    padding-left: 150px;
+}
+.logo a{
+    text-decoration: none;
+   font-size: 50px;
+   color: rgb(255, 255, 255);
+}
+.two{
+    
+}
+h1{
+    color: white;
+    padding-left: 150px;
+}
+.square{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.UM{
+    width: 1200px;
+    height: 450px;
+    border: 1px solid #053359;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(5, 51, 89,0.2);
+    background-color: rgb(252, 252, 252);
+    
+}
+.firstlayer{
+    display: flex;
+    justify-content: space-between;
+}
+#select{
+    
+}
+.search{
+    margin: 17px;
+    width: 400px;
+    height: 30px;
+
+    border-radius: 15px;
+    border-color: rgb(220, 220, 220);
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100px;
+    height: 30px;
+    margin: 17px;
+    background-color: white;
+
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: rgb(220, 220, 220);
+}
+
+.Filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 70px;
+    height: 30px;
+    margin: 17px;
+    background-color:#14609e;
+    color: white;
+
+    border-radius: 15px;
+}
+.AddUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100px;
+    height: 30px;
+    margin: 17px;
+    background-color: white;
+
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: rgb(220, 220, 220);
+}
+.secondlayer{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+tbody tr{
+    background-color: rgba(0, 0, 0, 0.043);
+}
+th{
+    background-color: #cfcfcffe;
+}
+td{
+    
+}
+tr:nth-of-type(even){
+    background-color: rgba(255, 255, 255, 0.043);
+}
